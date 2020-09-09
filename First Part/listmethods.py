@@ -33,5 +33,5 @@ print(fruits)
 vegetables.remove("kale")
 print(vegetables)
 
-del vegetables
-print(vegetables)
+#del vegetables
+#print(vegetables)

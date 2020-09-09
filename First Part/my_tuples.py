@@ -1,6 +1,6 @@
 fruits = ("grapes","apples","berries")
-#for x in fruits:
-#    print(x)
+for x in fruits:
+    print(x)
 print(fruits[2])
 
 animals = tuple(("lion","tiger","bear"))
@@ -13,5 +13,5 @@ print(len(animals))
 #animals[0] = "cheetah" #this will trigger an alert. Because you can't change the value after you create a tuple.
 #print(animals)
 
-del animals
-print(animals) #it's already deleted, this will trigger an error
+#del animals
+#print(animals) #it's already deleted, this will trigger an error
