@@ -21,16 +21,24 @@ class Spain():
     def language(self):
         print("Spanish is the primary language of Spain")
 
+    def europe(eu):
+        eu.capital_city()
+
 #In above classes we had the same-name methods. This is called polymorphism.
 
 queen = UK() #we instantiated the UK class.
-queen.capital_city()
+#queen.capital_city()
 
 zara = Spain() #we instantiated the Spain class.
-zara.capital_city()
+#zara.capital_city()
 
+europe(queen) #an instance of UK class
+europe(zara) #an instance of Spain class
+
+'''
 for country in (queen,zara): #treating as tuples
     country.capital_city()
     country.language()
+'''
 #this code wrote capitals and languages of UK and Spain.
-
+    
