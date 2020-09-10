@@ -12,7 +12,15 @@ class Shape(ABC):
 
 class Square(Shape):
     def __init__(self,side):
-        self.side = side
+        self.__side = side
+
+    def area(self):
+        return self.__side * self.__side #multiply it by itself
+
+    def perimeter(self):
+        return 4 * self.__side
 
 #myshape = Shape() #we can not instantiate the abstract class.
-mysquare = Square() #we can not instantiate the abstract class, it gives error.
+mysquare = Square(5) #we can not instantiate the abstract class, it gives error.
+print(mysquare.area())
+print(mysquare.perimeter())
