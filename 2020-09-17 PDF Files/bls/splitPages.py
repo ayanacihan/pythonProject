@@ -1,8 +1,9 @@
+#This scripts splits the pdf files into one page documents.
 from PyPDF2 import PdfFileReader, PdfFileWriter
 
 def split(path, name_of_split):
     pdf = PdfFileReader(path)
-    for page in range(pdf.getPage()):
+    for page in range(pdf.getNumPages()):
         pdf_writer = PdfFileWriter() #PdfFileReader object
         pdf_writer.addPage(pdf.getPage(page)) #addPage method
 
