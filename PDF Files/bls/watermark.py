@@ -21,4 +21,4 @@ if __name__ == '__main__':
     create_watermark(
         input_pdf='rfrotated.pdf',
         output='watermarked_pdf.pdf',
-        watermark='rotate_pages.pdf')
+        watermark='mypdffile.pdf')
