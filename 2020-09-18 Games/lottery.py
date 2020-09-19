@@ -1,4 +1,4 @@
-#This is a lottery game
+#This is a lottery game that generates 6 random numbers
 import random
 
 lottery_numbers = []
