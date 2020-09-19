@@ -12,4 +12,4 @@ print(img.size)
 
 #Show Image
 
-img.show()
+img.show()locals()
