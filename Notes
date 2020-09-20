@@ -1,0 +1,31 @@
+#We can read files.
+#We can use calendar methods.
+#We can use pictures and pdf files.
+#We can create clock application
+#We can build a calculator app.
+#We can build a mp3 player.
+#We can scrape the web pages.
+
+
+#self is a variable that represents the instance of object itself
+#from tkinter import * #importing everything. you can import certain parts or everything
+
+Virtual Environment:
+Isolated python environment.
+It doesn't conflict with other projects.
+Virtualenv command creates virtual environments.
+The command is virtualenv myenv #I created a virtual environment with the name myenv. cd myenv and cd bin and then source activate
+To deactivate it command is [deactivate]
+(myenv) cihanayana@repeaterhost bin % (this sentence shows that the virtual environment is activated.
+
+BeautifulSoup
+https://www.crummy.com/software/BeautifulSoup/bs4/doc/#insert #this is the official website.
+If you type import bs4 to the Python Console, if BeautifulSoup is already installed there won't be any errors.
+
+We installed Visual Studio Code. We also added the extension paste-and-indent
+
+For exporting the results of the scripts, [python3 web_scraping.py > output1.txt]
+
+Scrapy Project Creating
+[scrapy startproject myscrapy .]
+
