@@ -28,4 +28,14 @@ For exporting the results of the scripts, [python3 web_scraping.py > output1.txt
 
 Scrapy Project Creating
 [scrapy startproject myscrapy .]
+To start the scrapy project on python console:
+>>> scrapy shell 'https://bluelimelearning.github.io/my-fav-quotes/'
+>>> response.css('title') #this command gives the title of the website we scrape
+>>> response.css('title::text').extract() #this gives only the text part of the title
+>>> quote = response.css("div.quotes")[0]
+>>> aquote = quote.css("p.aquote::text").extract()
+>>> aquote
+
+From terminal
+cihanayana@repeaterhost spiders % scrapy runspider quotes_spiders.py -o quotes.xml #this will run the scrapy project and export the scraped data to xml file.
 
