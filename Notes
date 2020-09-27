@@ -5,6 +5,7 @@
 #We can build a calculator app.
 #We can build a mp3 player.
 #We can scrape the web pages.
+#We can use Django.
 
 
 #self is a variable that represents the instance of object itself
