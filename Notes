@@ -10,7 +10,8 @@
 #self is a variable that represents the instance of object itself
 #from tkinter import * #importing everything. you can import certain parts or everything
 
-Virtual Environment:
+Virtual Environment
+-------------------
 Isolated python environment.
 It doesn't conflict with other projects.
 Virtualenv command creates virtual environments.
@@ -27,6 +28,7 @@ We installed Visual Studio Code. We also added the extension paste-and-indent
 For exporting the results of the scripts, [python3 web_scraping.py > output1.txt]
 
 Scrapy Project Creating
+-----------------------
 [scrapy startproject myscrapy .]
 To start the scrapy project on python console:
 >>> scrapy shell 'https://bluelimelearning.github.io/my-fav-quotes/'
@@ -39,3 +41,21 @@ To start the scrapy project on python console:
 From terminal
 cihanayana@repeaterhost spiders % scrapy runspider quotes_spiders.py -o quotes.xml #this will run the scrapy project and export the scraped data to xml file.
 
+pip upgrade
+-----------
+python3 -m pip install --upgrade pip
+
+Installing libraries stated in requirement.txt file.
+----------------------------------------------------
+pip install -r requirement.txt #for installing all of the codes in requirement text file.
+Django app-->Facebook login page
+Django project-->Facebook (entire) (It can conclude many apps)
+Create a project: [django-admin startproject mysite .] #mysite project files created.
+Start the Django server: [python manage.py runserver]
+Stop the server: Control+c
+[python manage.py showmigrations]
+[python manage.py migrate] #the packages installed for the initial app
+[django-admin startapp todolist] #we created a folder for our 'todolist' project
+For activating the app, go to settings.py and add your app name to the installed apps. ['todolist',]
+For administrative page create a super user [python manage.py createsuperuser]
+The above notes are more organized in https://docs.djangoproject.com/en/3.1/intro/tutorial01/
