@@ -14,5 +14,5 @@ print(str(today + timedelta(days=4, weeks=5)))
 
 x = datetime.now() - timedelta(weeks=2)
 y = x.strftime("%A %B %d, %Y") #for formatting we used '%'
-print(y)
 
+print(y)
