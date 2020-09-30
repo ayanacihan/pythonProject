@@ -26,7 +26,7 @@ root.configure(background='black')
 root.bind("x", quit)
 root.after(1000, cant_wait)
 #Set the end date and time for the countdown
-endTime = datetime.datetime(2020, 9, 30, 0, 0) #first 0 is hours, second 0 is minutes
+endTime = datetime.datetime(2021, 1, 18, 0, 0) #first 0 is hours, second 0 is minutes
 
 fnt = font.Font(family='Helvetica', size=90, weight='bold')
 txt = StringVar()
