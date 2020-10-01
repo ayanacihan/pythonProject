@@ -14,16 +14,6 @@ uClient.close()
 page_soup = soup(page_html, "html.parser")
 quotes = page_soup.findAll("div", {"class":"quotes"}) #this will store all the div to the class
 
-'''     <div class ="quotes">
-            <p class ="aquote">
-                I hear and i forget.<br> I see and i remember.<br> I do and i understand.
-            </p>
-            <p class ="author">
-                Confucious
-            </p>
-        </div>
-'''
-
 for quote in quotes:
     fav_quote = quote.findAll("p", {"class": "aquote"})
     aquote = fav_quote[0].text.strip()
