@@ -18,7 +18,7 @@ It doesn't conflict with other projects.
 Virtualenv command creates virtual environments.
 The command is virtualenv myenv #I created a virtual environment with the name myenv. cd myenv and cd bin and then source activate
 To deactivate it command is [deactivate]
-(myenv) cihanayana@repeaterhost bin % (this sentence shows that the virtual environment is activated.
+(myenv) [user] bin % (this sentence shows that the virtual environment is activated.
 
 BeautifulSoup
 https://www.crummy.com/software/BeautifulSoup/bs4/doc/#insert #this is the official website.
@@ -40,7 +40,7 @@ To start the scrapy project on python console:
 >>> aquote
 
 From terminal
-cihanayana@repeaterhost spiders % scrapy runspider quotes_spiders.py -o quotes.xml #this will run the scrapy project and export the scraped data to xml file.
+[user] spiders % scrapy runspider quotes_spiders.py -o quotes.xml #this will run the scrapy project and export the scraped data to xml file.
 
 pip upgrade
 -----------
